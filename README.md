@@ -43,4 +43,4 @@ This project uses PySpark to extract GitHub data from an organization, and it in
 To run the project, execute the following commands:
 
 ```bash
-python pyspark_gh/main.py
+python3 pyspark_gh/main.py
