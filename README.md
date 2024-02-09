@@ -1,7 +1,9 @@
 # PySpark GitHub ETL Assignment
 
 This project uses Python to extract GitHub data from a repository, save them as JSON in a local directory called "data/raw_data".
+
 All the repo JSON files are then merged into a single JSON file named "repo_zote.json" that will be sent for transformation.
+
 Then uses PySpark to transform the all the JSON data into a parquet file then saves it in a local directory named "data/results".
 
 To observe separation of concerns, 
